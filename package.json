@@ -44,12 +44,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/an1ket-s1ngh/workstream.git"
+    "url": "git+https://github.com/acephos/workstream.git"
   },
   "bugs": {
-    "url": "https://github.com/an1ket-s1ngh/workstream/issues"
+    "url": "https://github.com/acephos/workstream/issues"
   },
-  "homepage": "https://github.com/an1ket-s1ngh/workstream#readme",
+  "homepage": "https://github.com/acephos/workstream#readme",
   "devDependencies": {
     "@types/node": "^22.15.21",
     "typescript": "^5.8.3"

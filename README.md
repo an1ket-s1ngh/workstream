@@ -2,7 +2,7 @@
 
 **Multi-session agent orchestration harness** — parallel workstreams, role routing, and delivery contracts.
 
-[![ci](https://github.com/an1ket-s1ngh/workstream/actions/workflows/ci.yml/badge.svg)](https://github.com/an1ket-s1ngh/workstream/actions/workflows/ci.yml)
+[![ci](https://github.com/acephos/workstream/actions/workflows/ci.yml/badge.svg)](https://github.com/acephos/workstream/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](package.json)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -33,7 +33,7 @@ Single-thread agent chats collapse under real product work:
 
 **workstream** is a small, local-first CLI + library that models how agent product teams actually ship: spawn workers, route by role, keep durable turn logs, and validate “done” against explicit criteria.
 
-It is a **public demonstration** of agent orchestration patterns used when shipping software with AI workers. Built by [Aniket Singh](https://github.com/an1ket-s1ngh) while working on agentic product tooling in industry. **Not affiliated with any employer; contains no proprietary code.**
+It is a **public demonstration** of agent orchestration patterns used when shipping software with AI workers. Built by [Aniket Singh](https://github.com/acephos) while working on agentic product tooling in industry. **Not affiliated with any employer; contains no proprietary code.**
 
 ---
 
@@ -41,7 +41,7 @@ It is a **public demonstration** of agent orchestration patterns used when shipp
 
 ```bash
 # from source
-git clone https://github.com/an1ket-s1ngh/workstream.git
+git clone https://github.com/acephos/workstream.git
 cd workstream
 npm install
 npm run build
@@ -260,7 +260,7 @@ CI runs on push/PR via GitHub Actions (Node 20 & 22).
 
 ## Author
 
-**Aniket Singh** — [github.com/an1ket-s1ngh](https://github.com/an1ket-s1ngh)
+**Aniket Singh** — [github.com/acephos](https://github.com/acephos)
 
 Built as a public demonstration of multi-agent orchestration patterns used when shipping software with AI workers. Written while working on agentic product tooling in industry. **Not affiliated with NCR Voyix or any employer; no company code or proprietary IP.**
 
