@@ -1,0 +1,57 @@
+{
+  "name": "workstream",
+  "version": "0.1.0",
+  "description": "Multi-session agent orchestration harness — parallel workstreams, role routing, delivery contracts.",
+  "type": "module",
+  "bin": {
+    "workstream": "./dist/cli.js",
+    "ws": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "test": "npm run build && node --test --test-reporter=spec dist/tests/harness.test.js dist/tests/cli.test.js",
+    "cli": "node dist/cli.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agentic-ai",
+    "llm",
+    "orchestration",
+    "cli",
+    "typescript",
+    "developer-tools",
+    "harness",
+    "multi-agent"
+  ],
+  "author": "Aniket Singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an1ket-s1ngh/workstream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/an1ket-s1ngh/workstream/issues"
+  },
+  "homepage": "https://github.com/an1ket-s1ngh/workstream#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
